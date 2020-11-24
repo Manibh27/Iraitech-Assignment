@@ -1,0 +1,11 @@
+<form [formGroup]="productForm" (ngSubmit)="showMobileNumbers()">
+  <div class="numbers" formArrayName="mobile_numbers">
+    <div *ngFor="let item of mobileNumbers.controls; let pointIndex=index" [formGroupName]="pointIndex">
+      <input type="number" formControlName="point" />
+      <button type="button" (click)="deleteNumber(pointIndex)">Delete</button>
+    </div>
+    <button type="button" (click)="addNumber()">Add Number</button>
+  </div>
+  <button type="submit">Submit</button>
+</form>
+

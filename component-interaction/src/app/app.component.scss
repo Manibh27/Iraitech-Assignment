@@ -1,0 +1,33 @@
+.top {
+    width: 100%;
+    height: 50%;
+}
+.bottom {
+    width: 100%;
+    height: 50%;
+}
+
+.b-l {
+    margin-top: 17%;
+    float: left
+}
+.b-r {
+    margin-top: 17%;
+    float: right;
+    margin-right: 10px;
+}
+.t-l {
+    float: left;
+
+}
+
+.t-r {
+    float: right;
+    margin-right: 10px;
+}
+
+.center {
+    z-index: 10px;
+    margin: 25% 45%;
+    position: absolute;
+}

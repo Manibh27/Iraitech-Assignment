@@ -1,0 +1,11 @@
+<div class="center">
+  <input type="text" [(ngModel)]="item" placeholder="Enter something to display in all other components">
+</div>
+<div class="top">
+  <app-top-left [item]="item" class="t-l"></app-top-left>
+  <app-top-right [item]="item" class="t-r"></app-top-right>
+</div>
+<div class="bottom">
+  <app-bottom-left [item]="item" class="b-l"></app-bottom-left>
+  <app-bottom-right [item]="item" class="b-r"></app-bottom-right>
+</div>
