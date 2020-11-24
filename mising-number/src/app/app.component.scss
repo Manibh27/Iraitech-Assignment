@@ -1,0 +1,29 @@
+.header {
+    text-align: center;
+}
+
+.question {
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.search-index {
+    padding-top: 10px;
+    padding-left: 10px;
+
+    input {
+        padding: 5px 10px;
+        border-color: #0075FF;
+        border-radius: 10px;
+        outline: none;
+    }
+
+    button {
+        margin-left: 10px;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: #7FFFD4;
+        outline: none;
+        cursor: pointer;
+    }
+}

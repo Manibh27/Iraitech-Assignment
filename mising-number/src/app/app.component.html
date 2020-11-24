@@ -1,0 +1,10 @@
+<div class="header">
+  <h2>Missing Number: {{missingNumber}}</h2>
+</div>
+<div class="question">
+  <h4>Question: 2,3,10,15,26,35,50,63,.,.</h4>
+</div>
+<div class="search-index">
+  <span>Search an Index: </span> <input type="text" [(ngModel)]="searchIndex" value={{searchIndex}}/>
+  <button (click)="findAnswer()">Find</button>
+</div>
